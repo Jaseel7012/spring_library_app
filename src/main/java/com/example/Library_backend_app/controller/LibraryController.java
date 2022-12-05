@@ -10,4 +10,8 @@ public class LibraryController {
     public String AdminLogin(){
         return "Admin Login page";
     }
+    @PostMapping("/userlog")
+    public String UserLogin(){
+        return "user login";
+    }
 }
