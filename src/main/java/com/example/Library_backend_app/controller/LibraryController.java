@@ -40,4 +40,8 @@ public class LibraryController {
     public String IssueBook(){
         return "Book issue page";
     }
+    @GetMapping("/view")
+    public String ViewBook(){
+        return "view Book page";
+    }
 }
