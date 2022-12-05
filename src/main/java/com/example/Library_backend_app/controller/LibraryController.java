@@ -32,4 +32,8 @@ public class LibraryController {
     public String DeleteBook(){
         return "delete book";
     }
+    @GetMapping("/search")
+    public String SearchBook(){
+        return "search book";
+    }
 }
