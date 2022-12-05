@@ -22,4 +22,10 @@ public class LibraryController {
     public  String AddBook(){
         return "Add book page";
     }
+    @PostMapping("/edit")
+
+
+    public String EditBook(){
+        return "edit book";
+    }
 }
